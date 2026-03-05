@@ -1,6 +1,7 @@
 # Sistema de Gestión de Biblioteca: Implementación y Análisis Estructural
 **Autor:** Antigravity (IA Assitant)  
-**Fecha:** 2026
+**Fecha:** 2026  
+**Repositorio (Código Fuente):** [https://github.com/jeronimomayorca/library-managing-system](https://github.com/jeronimomayorca/library-managing-system)
 
 ## 1. Introducción
 La gestión eficiente del inventario y de las acciones de los usuarios en Sistemas de Información requiere el diseño meticuloso de la memoria y la forma en que los datos se almacenan y operan. Las estructuras de datos lineales proveen arquitecturas específicas que optimizan estas operaciones según su naturaleza. El presente proyecto implementa un Sistema de Gestión de Biblioteca utilizando el paradigma de Programación Orientada a Objetos en Java. La esencia del sistema recae en prescindir del marco de colecciones estándar de Java (JCF), construyendo "desde cero" cada estructura: un Arreglo Estático para el registro de usuarios, una Lista Enlazada Simple para el inventario de libros, una Cola (FIFO) para las reservas de ejemplares agotados y una Pila (LIFO) para llevar el registro histórico transaccional del sistema. A través de este diseño, se demuestra la aplicación directa de cada modelo abstracto de datos en resolución de problemas contextuales reales.
